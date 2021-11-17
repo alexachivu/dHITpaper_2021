@@ -210,7 +210,7 @@ Plot.heatmap = function(Signal.cts, n.lines = 100, color = "#FF0000", Fig.type =
 
 #7.  Compute linear regression
 #Define regions that background regions for the ChIP of interest (example for H3K27ac below).
-# The rationalle for this analysis follows the mathematical models presented in: Bonhoure et al., 2014 
+# The rationale for this analysis follows the mathematical models presented in: Bonhoure et al., 2014 
 #("Quantifying ChIP-seq data: a spiking method providing an internal reference for sample-to-sample normalization")
 
 
@@ -219,7 +219,7 @@ Plot.heatmap = function(Signal.cts, n.lines = 100, color = "#FF0000", Fig.type =
 
         To achieve this, I masked ed all coordinates corresponding to H3K27ac ENCODE broad peaks from hg19 (+ the adjacent regions)
                
-               bedtools complement -i wgEncodeBroadHistoneK562H3k27acStdPk.broadPeak.sorted  -g /home/agc94/useful_genomeInfo/hg19/hg19.sort.chromInfo > hg19.noENCODEpeaks.K27ac.bed
+               bedtools complement -i wgEncodeBroadHistoneK562H3k27acStdPk.broadPeak.sorted  -g ../hg19/hg19.sort.chromInfo > hg19.noENCODEpeaks.K27ac.bed
 
 
 
@@ -231,7 +231,7 @@ Plot.heatmap = function(Signal.cts, n.lines = 100, color = "#FF0000", Fig.type =
             
        The output "hg19.noENCODE.5kb.nonOverlspWin.bed" can be found in:
        
-       /home/agc94/Trp_TimeCourse_JupyterNotebooks_2019/ChIPseq_Trp/NormUsing.ReadsIn.Over.ReadsOutsidePeaks_April2020/K27ac
+       ../ChIPseq_Trp/NormUsing.ReadsIn.Over.ReadsOutsidePeaks_April2020/K27ac
       
 <br>      
       
@@ -259,12 +259,9 @@ Plot.heatmap = function(Signal.cts, n.lines = 100, color = "#FF0000", Fig.type =
                   ex: bedtools coverage -a hg19.noENCODE.5kb.nonOverlspWin.fixed.bed -b K27ac.bam* > K27ac.coverage5kb.nonOverlapWin.bed
                   
                   
-                   bedtools coverage -a hg19.noENCODE.5kb.nonOverlspWin.fixed.bed -b /local/storage/projects/RawSequenceFiles/2019-07-06_K562_ChIP_TriptolideTimecourse/merged_datasets_JuneJuly2019/masked_Diulia/BAM_files/K27ac_bam/mergedMasked_K27ac_0h_br1.bam > K27ac_0h_br1.coverage5kb.noENCODE.bed &          
+                   bedtools coverage -a hg19.noENCODE.5kb.nonOverlspWin.fixed.bed -b ./mergedMasked_K27ac_0h_br1.bam > K27ac_0h_br1.coverage5kb.noENCODE.bed &          
 
-<br>
-                  
-*all H3K27ac BAM files are kept in: /local/storage/projects/RawSequenceFiles/2019-07-06_K562_ChIP_TriptolideTimecourse/merged_datasets_JuneJuly2019/masked_Diulia/BAM_files/K27ac_bam/
-       
+<br>       
 <br>
 
        - Output looks like:
