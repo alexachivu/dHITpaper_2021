@@ -1,0 +1,37 @@
+ID,Data Type,Cell type/ Sample ID,Organism,GEO/ dbGaP ID,Lab,Institution,Sequencing Depth,Training/ test,Reference
+,GRO-seq,mESC,Mouse,GSE48895,Lis,Cornell University,,Test,Elife 2014 Apr 29;3:e02407. PMID: 24843027
+,leChRO-seq,GBM-05-16,Human,phs001646.v1.p1,Danko,Cornell University,12026819,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-07-05,Human,phs001646.v1.p1,Danko,Cornell University,33477124,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-05-17,Human,phs001646.v1.p1,Danko,Cornell University,37121068,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-05-23,Human,phs001646.v1.p1,Danko,Cornell University,38750059,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-05-05,Human,phs001646.v1.p1,Danko,Cornell University,31814017,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-07-07,Human,phs001646.v1.p1,Danko,Cornell University,53694384,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-05-35,Human,phs001646.v1.p1,Danko,Cornell University,18865872,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-97-04,Human,phs001646.v1.p1,Danko,Cornell University,10593102,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,ChRO-seq,GBM-15-90,Human,phs001646.v1.p1,Danko,Cornell University,150711728,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-05-15,Human,phs001646.v1.p1,Danko,Cornell University,21731177,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-07-02,Human,phs001646.v1.p1,Danko,Cornell University,10303802,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-05-30,Human,phs001646.v1.p1,Danko,Cornell University,26041476,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-05-18,Human,phs001646.v1.p1,Danko,Cornell University,34744863,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-05-21,Human,phs001646.v1.p1,Danko,Cornell University,27920964,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-05-33,Human,phs001646.v1.p1,Danko,Cornell University,25874121,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-05-45,Human,phs001646.v1.p1,Danko,Cornell University,21405989,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-06-12,Human,phs001646.v1.p1,Danko,Cornell University,19037300,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,ChRO-seq / leChRO-seq,GBM-88-04,Human,phs001646.v1.p1,Danko,Cornell University,22477998,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-05-26,Human,phs001646.v1.p1,Danko,Cornell University,11581790,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+,leChRO-seq,GBM-06-05,Human,phs001646.v1.p1,Danko,Cornell University,32896583,Test,Nat Genet. 2018 Nov;50(11):1553-1564. PMID: 30349114
+G1,PRO-seq,K562,Human,GSM1480327,Lis,Cornell University,374946808,Training,Nat Genet. 2014 Dec;46(12):1311-20. PMID: 25383968
+G2,GRO-seq,K562,Human,GSM1480325,Lis,Cornell University,18129333,Training,Nat Genet. 2014 Dec;46(12):1311-20. PMID: 25383968
+G3,PRO-seq,K562,Human,GSM3452725,Danko,Cornell University,57520888,Training,Genome Res. 2019 Feb;29(2):293-303. PMID: 30573452
+G5,PRO-seq,K562,Human,"GSM2361442,GSM2361443
+",Sistonen,Åbo Akademi University,71452942,Training,Nat Commun. 2017 Aug 15;8(1):255. PMID: 28811569
+G6,PRO-seq,K562,Human,GSM2545324,Lis,Cornell University,26972822,Training,Genome Res. 2017 Nov;27(11):1816-1829. PMID: 29025894
+G7,PRO-seq,K562,Human,GSM2545325,Lis,Cornell University,27046373,Test,Genome Res. 2017 Nov;27(11):1816-1829. PMID: 29025894
+G8,GRO-seq,K562,Human,"GSM1622612,GSM1622613,GSM1622614,GSM1622615",Sistonen,Åbo Akademi University,49159579,Test,Genome Biol. 2015 Jul 28;16:153. PMID: 26259101
+GM,GRO-seq,GM12878,Human,GSM1480326,Lis,Cornell University,105936649,Test,Nat Genet. 2014 Dec;46(12):1311-20. PMID: 25383968
+GH,GRO-seq,HCT116,Human,"GSM1304424,GSM1304425",Espinosa,"University of Colorado, Boulder",118728260,Test,Elife. 2014 May 27;3:e02200. PMID: 24867637
+CD4,PRO-seq,CD4,Human,GSM2265095,Danko,Cornell University,33087414,Test,Nat Ecol Evol. 2018 Mar;2(3):537-548. PMID: 29379187
+H1,GRO-seq,HELA,Human,GSE62046,Lis,Cornell University,5812515,Test,Nat Commun. 2014 Nov 12;5:5336. PMID: 25387874
+,ChRO-seq,Liver,Horse,,Danko,Cornell University,,Test,Herein
+,,,,,,,,,
+Supplementary Table 1: PRO-seq/ ChRO-seq data used in the present study.,,,,,,,,,
